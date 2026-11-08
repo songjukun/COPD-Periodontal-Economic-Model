@@ -1,0 +1,11 @@
+.venv/
+_deps/
+__pycache__/
+*.pyc
+06_Analysis/results/
+04_Figures/
+*.log
+*.pdf
+*.doc
+*.docx
+*.ipynb
