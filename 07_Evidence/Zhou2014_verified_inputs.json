@@ -1,0 +1,43 @@
+{
+  "doi": "10.1111/jcpe.12247",
+  "pmid": "24593836",
+  "source_kind": "User-supplied publisher PDF; all 9 pages read and visually inspected, including Figure 1 and Tables 1-5",
+  "source_path": null,
+  "verification_date": "2026-10-17",
+  "verified_pdf_sha256": "421edfaae51cb020c6142992103175d6f7ef44905ad50cd7d9485d47ba60ddfd",
+  "population": "Single-centre Beijing ChaoYang Hospital pilot randomized trial; 60 patients; 20 per arm; age >=40; >=15 teeth; GOLD II-IV; at least one site PD>3 mm and CAL>3 mm",
+  "endpoint": "Participant classified as frequent exacerbator after reporting >=2 exacerbations in the preceding 12 months; NOT recurrent event counts or hospitalization counts",
+  "endpoint_source": "PDF p3 / printed p566, Assessing exacerbations of COPD",
+  "control_risks": [0.47368421052631576, 0.6666666666666666],
+  "table4_counts": [
+    {"visit": "baseline", "arm": "SRP", "frequent": 9, "infrequent": 11, "observed_n": 20},
+    {"visit": "baseline", "arm": "Scaling", "frequent": 6, "infrequent": 14, "observed_n": 20},
+    {"visit": "baseline", "arm": "Control", "frequent": 11, "infrequent": 9, "observed_n": 20},
+    {"visit": "year1", "arm": "SRP", "frequent": 4, "infrequent": 16, "observed_n": 20},
+    {"visit": "year1", "arm": "Scaling", "frequent": 4, "infrequent": 16, "observed_n": 20},
+    {"visit": "year1", "arm": "Control", "frequent": 9, "infrequent": 10, "observed_n": 19},
+    {"visit": "year2", "arm": "SRP", "frequent": 6, "infrequent": 14, "observed_n": 20},
+    {"visit": "year2", "arm": "Scaling", "frequent": 3, "infrequent": 16, "observed_n": 19},
+    {"visit": "year2", "arm": "Control", "frequent": 12, "infrequent": 6, "observed_n": 18}
+  ],
+  "table4_source": "PDF p6 / printed p569, Table 4",
+  "table5": [
+    {"comparison": "SRP vs Control", "year": 1, "or": 0.51, "lower": 0.22, "upper": 1.21, "p": 0.13},
+    {"comparison": "SRP vs Control", "year": 2, "or": 0.29, "lower": 0.10, "upper": 0.84, "p": 0.02},
+    {"comparison": "Scaling vs Control", "year": 1, "or": 0.28, "lower": 0.05, "upper": 1.62, "p": 0.15},
+    {"comparison": "Scaling vs Control", "year": 2, "or": 0.04, "lower": 0.003, "upper": 0.64, "p": 0.02},
+    {"comparison": "SRP vs Scaling", "year": 1, "or": 0.73, "lower": 0.12, "upper": 4.43, "p": 0.74},
+    {"comparison": "SRP vs Scaling", "year": 2, "or": 1.62, "lower": 0.16, "upper": 16.1, "p": 0.68}
+  ],
+  "table5_source": "PDF p7 / printed p570, Table 5 and footnote; year2 ORs also in Results PDF p5 / printed p568",
+  "adjustment": ["age", "gender", "body mass index", "smoking status", "baseline frequent exacerbations in the preceding 12 months"],
+  "discrepancy_resolution": "Original Table 5 and Results both give Scaling year2 OR 0.04. The value 0.004 is also Table 4's omnibus chi-square P value, not this OR. This does not establish how a secondary review acquired its different OR.",
+  "maintenance": "PDF p4 / printed p567: SRP repeated if necessary at 6, 12, 24 months; scaling group received maintenance supragingival scaling at follow-up. Actual quantities and costs not reported.",
+  "source_caveats": [
+    "Table 1 prints Scaling female 5 (15), although 5/20=25%; preserve count and flag source percentage inconsistency, not silently correct original.",
+    "Figure 1 reports n=20 analyzed per arm but available follow-up counts differ; Table 4 follows available denominators. Missing-data/imputation details for reported adjusted regressions cannot be recovered from aggregate tables.",
+    "Pulmonary-function paragraph on printed p568 says lower where Table 3 and surrounding interpretation show higher values; not used as a numerical model input.",
+    "No severity-specific exacerbation rates, hospitalization efficacy, event utility, or resource quantities are reported.",
+    "The difference between significant year2 and nonsignificant year1 results is not a test of time-by-treatment interaction."
+  ]
+}
