@@ -1,0 +1,30 @@
+[
+  {
+    "source": "Tianjin",
+    "severe_effect": 0,
+    "cost_with_zero_maintenance": 980.3258286130131,
+    "algebraic_root": -364.7365336358725,
+    "feasible": false
+  },
+  {
+    "source": "Tianjin",
+    "severe_effect": 1,
+    "cost_with_zero_maintenance": -3937.286759637398,
+    "algebraic_root": 1464.8928781896407,
+    "feasible": true
+  },
+  {
+    "source": "Chongqing",
+    "severe_effect": 0,
+    "cost_with_zero_maintenance": 889.2579660354386,
+    "algebraic_root": -330.8541492768202,
+    "feasible": false
+  },
+  {
+    "source": "Chongqing",
+    "severe_effect": 1,
+    "cost_with_zero_maintenance": -1711.3175373458207,
+    "algebraic_root": 636.706703326277,
+    "feasible": true
+  }
+]

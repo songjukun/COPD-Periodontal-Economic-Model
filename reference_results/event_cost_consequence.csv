@@ -1,0 +1,5 @@
+source,effect,incremental_cost,moderate_avoided,severe_avoided,all_events_avoided,hospitalizations_avoided,net_cost_per_event_avoided,net_cost_per_hospitalization_avoided,hospital_denominator_status,denominator_convention
+Tianjin,Moderate only,1281.3554285550636,0.14518352179896113,0.0,0.14518352179896113,0.0,8825.763507303433,,zero benefit; ratio undefined,undiscounted survival-adjusted events; discounted 2024 CNY costs
+Tianjin,Both severities assumed,-3636.2571596953458,0.14518352179896113,0.2647464221039879,0.409929943902949,0.2647464221039879,-8870.435579978588,-13734.867994805556,h=1 proxy,undiscounted survival-adjusted events; discounted 2024 CNY costs
+Chongqing,Moderate only,1190.2875659774909,0.14518352179896113,0.0,0.14518352179896113,,8198.503185683212,,unidentifiable composite source,undiscounted survival-adjusted events; discounted 2024 CNY costs
+Chongqing,Both severities assumed,-1410.2879374037693,0.14518352179896113,0.2647464221039879,0.409929943902949,,-3440.314518076911,,unidentifiable composite source,undiscounted survival-adjusted events; discounted 2024 CNY costs
